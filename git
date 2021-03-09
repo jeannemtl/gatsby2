@@ -1,0 +1,22 @@
+
+
+cd cocomint2021
+git status
+git clone repo
+
+
+git checkout -b gh-pages //creates nnew branch
+git push origin gh-pages //push branch to remote
+
+git checkout gh-pages
+MAKE CHANGES
+
+git add .
+git commit -m "test flow"
+
+
+git status
+git checkout main
+git pull origin main
+git merge gh-pages (:qa!)
+git push origin main
